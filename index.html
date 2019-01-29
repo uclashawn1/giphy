@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us"></html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giphy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body class="bg">
+    <div class="jumbotron" id="header">
+        <h1>TV Show Giphs & More</h1>
+        <h4>Click buttons to display GIPHYs<br>Click GIPHs to pause and play<br>Search to add more buttons!</h4>
+    </div>
+    <div class="container">
+        <!-- Top section of the page -->
+        <div class="row">
+            <div class="col-md-12" id="buttonBar">
+               
+            </div>
+        </div>
+        
+    <Section class="row">
+        <div class="col-md-8">
+            <div class="container">    
+                <div class="card-columns">
+               </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-4" id="sidebar">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <form>
+                        <div class="form-group">
+                            <label for="inputNumgif">Select Number of Gifs</label>
+                                <select id="inputNumgif" class="form-control">
+                                    <option selected>choose option</option>
+                                    <option>10</option>
+                                    <option>15</option>
+                                    <option>20</option>
+                                </select>
+                        </div>
+
+                        <div class="input-group shadow p-4 mb-4 bg-white">                        
+                            <input type="text" class="form-control" id="addseries" placeholder="Add Your Favorite"></input>
+                                <div class="input-group-append">
+                                    <button type="submit" class="btn-info" id="search">Add Series</button>
+                                </div>
+                        </div>
+                    </form>
+                    <h3>Add Giphy</h3>
+                    <div class="container">
+                        <div id="favgifs">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+    </div>
+<!-- Javascript -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="javascript/giphy.js"></script>
+</body>
+</html>
+

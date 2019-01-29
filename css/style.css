@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+}
+
+#header {
+	background-color: rgba(56, 170, 56, 0.589);
+	color: #a454e6b0;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: "Carrois Gothic SC", sans-serif;
+}
+
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+#buttonBar{
+    min-height: 50px;
+}
+
+.giphButton {
+    margin: 5px;
+}
+
+.card-body {
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: red;
+}
+
+#sideBar {
+    color: white;
+    background-color: green;
+}
+
+.form-control {
+    background-color: lightseagreen;
+}
+
+.far {
+    color: black;
+}
+
+.fas {
+    color: rgb(226, 43, 202);
+}
+
+#favGiphs {
+    color: black;
+    font-size: 12px;
+    background-color: orange;
+}
+
+.favorites {
+    /* margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+    margin-bottom: 5px; */
+    background-color: yellow;
+}
+
